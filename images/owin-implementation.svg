@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="owin-implementation.svg"
+   inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="TriangleInL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleInL"
+       style="overflow:visible">
+      <path
+         id="path3920"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(-0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         id="path3929"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path3808"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path3790"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInL-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3920-8"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(-0.8,-0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3929-7"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInL-8"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3920-9"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(-0.8,-0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3929-79"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInL-1"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3920-7"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(-0.8,-0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3929-0"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="184.17377"
+     inkscape:cy="868.93093"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2998" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#710081;fill-opacity:1;stroke:none"
+       id="rect2996"
+       width="700"
+       height="280"
+       x="20"
+       y="92.362183"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#bc00d5;fill-opacity:1;stroke:none"
+       id="rect3003"
+       width="680"
+       height="230"
+       x="30"
+       y="132.36218"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ff2956;fill-opacity:1;stroke:none"
+       id="rect3005"
+       width="490"
+       height="180"
+       x="40"
+       y="172.36218"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ff5900;fill-opacity:1;stroke:none"
+       id="rect3007"
+       width="160"
+       height="180"
+       x="540"
+       y="172.36218"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Segoe UI;-inkscape-font-specification:Segoe UI"
+       x="30"
+       y="117.36218"
+       id="text4413"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4415"
+         x="30"
+         y="117.36218"
+         style="fill:#ffffff;fill-opacity:1">HOST - EXE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Segoe UI;-inkscape-font-specification:Segoe UI"
+       x="40"
+       y="157.36218"
+       id="text4413-1"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4415-7"
+         x="40"
+         y="157.36218"
+         style="fill:#ffffff;fill-opacity:1">SERVER - Kestrel / WebListener</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Segoe UI;-inkscape-font-specification:Segoe UI"
+       x="50"
+       y="197.36218"
+       id="text4413-1-4"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4415-7-0"
+         x="50"
+         y="197.36218"
+         style="fill:#ffffff;fill-opacity:1">PIPELINE</tspan></text>
+    <rect
+       style="fill:#ff6f87;fill-opacity:1;stroke:none"
+       id="rect4459"
+       width="150"
+       height="130"
+       x="50"
+       y="212.36218"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Segoe UI;-inkscape-font-specification:Segoe UI"
+       x="60"
+       y="232.36218"
+       id="text4413-1-4-9"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4415-7-0-4"
+         x="60"
+         y="232.36218"
+         style="fill:#ffffff;fill-opacity:1">MIDDLEWARE#1</tspan></text>
+    <rect
+       style="fill:#ff6f87;fill-opacity:1;stroke:none"
+       id="rect4459-8"
+       width="150"
+       height="130"
+       x="210"
+       y="212.36218"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Segoe UI;-inkscape-font-specification:Segoe UI"
+       x="220"
+       y="232.36218"
+       id="text4413-1-4-9-8"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4415-7-0-4-2"
+         x="220"
+         y="232.36218"
+         style="fill:#ffffff;fill-opacity:1">MIDDLEWARE#2</tspan></text>
+    <rect
+       style="fill:#ff6f87;fill-opacity:1;stroke:none"
+       id="rect4459-8-1"
+       width="150"
+       height="130"
+       x="370"
+       y="212.36218"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Segoe UI;-inkscape-font-specification:Segoe UI"
+       x="380"
+       y="232.36218"
+       id="text4413-1-4-9-8-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4415-7-0-4-2-1"
+         x="380"
+         y="232.36218"
+         style="fill:#ffffff;fill-opacity:1">MIDDLEWARE#2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Segoe UI;-inkscape-font-specification:Segoe UI"
+       x="566"
+       y="232.36218"
+       id="text4413-1-4-9-8-7-1"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4415-7-0-4-2-1-5"
+         x="566"
+         y="232.36218"
+         style="fill:#ffffff;fill-opacity:1">APPLICATION</tspan></text>
+    <path
+       style="fill:#481616;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:11.60000038;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutL);display:inline"
+       d="m -15,257.36218 75,0"
+       id="path4597"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#481616;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:11.60000038;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutL)"
+       d="m 180,263.36218 42.03704,0"
+       id="path4597-2"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#481616;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:11.60000038;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInL);marker-end:none;display:inline"
+       d="m -6,312.36218 74,0"
+       id="path4597-4"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#481616;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:11.60000038;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInL);marker-end:none"
+       d="m 187.96296,308.36218 42.03704,0"
+       id="path4597-2-2"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#481616;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:11.60000038;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutL)"
+       d="m 340,267.36218 42,0"
+       id="path4597-2-6"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#481616;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:11.60000038;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInL);marker-end:none"
+       d="m 349,304.36218 41,0"
+       id="path4597-2-2-1"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#481616;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:11.60000038;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutL)"
+       d="m 500,271.36218 55,0"
+       id="path4597-2-6-5"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#481616;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:11.60000038;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInL);marker-end:none"
+       d="m 508,300.36218 54,0"
+       id="path4597-2-2-1-4"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:#10349a;fill-opacity:1;stroke:none"
+       id="rect6099"
+       width="165"
+       height="280"
+       x="-180"
+       y="92.362183"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Segoe UI;-inkscape-font-specification:Segoe UI"
+       x="-260"
+       y="187.36218"
+       id="text6101"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6103"
+         x="-260"
+         y="187.36218"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"> </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Segoe UI;-inkscape-font-specification:Segoe UI"
+       x="-175"
+       y="117.36218"
+       id="text4413-5"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="-175"
+         y="117.36218"
+         style="fill:#ffffff;fill-opacity:1"
+         id="tspan3165">  REVERSE  PROXY</tspan><tspan
+         sodipodi:role="line"
+         x="-175"
+         y="139.86218"
+         style="fill:#ffffff;fill-opacity:1"
+         id="tspan3169" /><tspan
+         sodipodi:role="line"
+         x="-175"
+         y="162.36218"
+         style="fill:#ffffff;fill-opacity:1"
+         id="tspan3171">IIS/NGINX/APACHE</tspan></text>
+    <path
+       style="fill:#481616;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:11.60000038;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutL);display:inline"
+       d="m -245.28571,257.36218 75,0"
+       id="path4597-9"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#481616;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:11.60000038;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInL);marker-end:none;display:inline"
+       d="m -236.28571,312.36218 74,0"
+       id="path4597-4-4"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:#82c900;fill-opacity:1;stroke:none"
+       id="rect6099-8"
+       width="130"
+       height="280"
+       x="-375.28571"
+       y="92.362183"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Segoe UI;-inkscape-font-specification:Segoe UI"
+       x="-421.71429"
+       y="187.36218"
+       id="text6101-8"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6103-2"
+         x="-421.71429"
+         y="187.36218"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"> </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Segoe UI;-inkscape-font-specification:Segoe UI"
+       x="-354.28571"
+       y="262.36218"
+       id="text6008-4"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6010-5"
+         x="-354.28571"
+         y="262.36218">REQUEST</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Segoe UI;-inkscape-font-specification:Segoe UI"
+       x="-354.28571"
+       y="317.36218"
+       id="text6008-2-5"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6010-1-1"
+         x="-354.28571"
+         y="317.36218">RESPONSE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Segoe UI;-inkscape-font-specification:Segoe UI"
+       x="-353.28571"
+       y="117.36218"
+       id="text4413-5-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Work\ITAD\presentation\intro-to-core\images\owin-implementation.PNG"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4415-75-1"
+         x="-353.28571"
+         y="117.36218"
+         style="fill:#ffffff;fill-opacity:1">BROWSER</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>ASP.NET & ASP.NET CORE</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/beige.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h2>ASP.NET & ASP.NET CORE</h2>
+			</section>
+			<section>
+				<h2>ASP.NET OVERVIEW</h2>
+				<img src="images/runtimes.png" />
+			</section>
+			<section>
+				<h2>ASP.NET MVC</h2>
+				<img src="images/mvc.png" />
+			</section>
+			<section>
+				<h2>ASP.NET MVC 5 vs ASP.NET MVC CORE 1.1</h2>
+				<img src="images/mvc_vs_mvc.png" />
+			</section>
+			<section>
+				<h2>VS Templates</h2>
+				<img src="images/vstemplate.png" />
+			</section>
+
+			<section>
+				<h2>OWIN</h2>
+				<blockquote cite="http://owin.org">
+					OWIN defines a standard interface between .NET web servers and web applications.
+				</blockquote>
+			</section>
+			<section>
+				<h2>OWIN IMPLEMENTATIONS</h2>
+				<ul>
+					<li>
+						Katana
+					</li>
+					<li>
+						ASP.NET CORE
+					</li>
+				</ul>
+			</section>
+			<section>
+				<h2>OWIN IMPLEMENTATIONS</h2>
+				<img src="images/owin-implementation.png" />
+			</section>
+			<section>
+				<h2>ASP.NET CORE HTTP SERVERS</h2>
+				<ul>
+					<li>Nowin</li>
+					<li>WebListener</li>
+					<li>Kestrel</li>
+				</ul>
+			</section>
+			<section>
+				<h2>WebListener</h2>
+				<blockquote cite="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/weblistener">
+					WebListener is a web server for ASP.NET Core that runs only on Windows.
+				</blockquote>
+			</section>
+			<section>
+				<h2>WebListener hosting</h2>
+
+				<img src="images/weblistener-host.png" />
+			</section>
+			<section>
+				<h2>Kestrel</h2>
+				<blockquote cite="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel">
+					Kestrel is a cross-platform web server for ASP.NET Core based on libuv
+				</blockquote>
+			</section>
+			<section>
+				<h2>Kestrel hosting - Intranet</h2>
+				<img src="images/kestrel-host-internal.png" />
+
+			</section>
+			<section>
+				<h2>Kestrel hosting - Internet</h2>
+				<img src="images/kestrel-host-internet.png" />
+			</section>
+			<section>
+				<h2>Kestrel hosting - IIS</h2>
+				<img src="images/ancm.png" />
+			</section>
+			<section>
+				<h2>Features comparision</h2>
+				<img src="images/serverscomparision.png" />
+			</section>
+			<section>
+				<h2>Middleware </h2>
+				<blockquote cite="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware">
+					Middleware is software that is assembled into an application pipeline to handle requests and responses. Each component chooses
+					whether to pass the request on to the next component in the pipeline, and can perform certain actions before and after
+					the next component is invoked in the pipeline
+				</blockquote>
+			</section>
+			<section>
+				<h2>Middleware - pipeline </h2>
+				<img src="images/middleware.png" />
+			</section>
+			<section>
+				<h2>Built-in middleware </h2>
+				<ul>
+					<li>Authentication</li>
+					<li>CORS</li>
+					<li>Response Caching</li>
+					<li>Response Compression</li>
+					<li>Routing</li>
+					<li>Session</li>
+					<li>Static Files</li>
+					<li>URL Rewriting Middleware</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		Reveal.initialize({
+			history: true,
+
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>
